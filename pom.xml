@@ -4,13 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.digisfera</groupId>
 	<artifactId>digisfera-llm-api</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>DigiSfera.it LLM API</name>
 	<description>DigiSfera.it LLM API</description>
-	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
 	<developers>
 		<developer>
 			<name>DigiSfera.it</name>
@@ -20,4 +16,17 @@
 	<scm>
 		<connection>scm:git:https://github.com/digisfera-it/digisfera-llm-api.git</connection>
 	</scm>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<junit.version>4.13.2</junit.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>

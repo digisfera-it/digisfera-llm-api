@@ -3,17 +3,18 @@ package it.digisfera.llm.api;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public final class DriverManager {
 
 	private static List<Driver> drivers = new ArrayList<>();
 
-	public static Connection connect(String url, String username, String password) throws IOException {
+	public static Connection connect(String url, Properties properties) throws IOException {
 		Driver driver = getDriver(url);
 		if (driver == null) {
 			throw new IllegalArgumentException("Driver not found for " + url);
 		}
-		return driver.connect(url, username, password);
+		return driver.connect(url, properties);
 	}
 
 	public static Driver getDriver(String url) {
