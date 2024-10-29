@@ -16,7 +16,7 @@ jobs:
       with:
         java-version: '8'
         distribution: 'temurin'
-        server-id: github-digisfera-it
+        server-id: github
         settings-path: ${{ github.workspace }}
     - name: Build and publish with Maven
       run: mvn -B deploy -s $GITHUB_WORKSPACE/settings.xml
