@@ -1,10 +1,9 @@
 package it.digisfera.llm.api;
 
 import java.io.IOException;
-import java.io.Serializable;
 import java.util.List;
 
-public interface Chat extends Serializable {
+public interface Chat {
 
 	List<Message> getMessages();
 
