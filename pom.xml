@@ -31,9 +31,9 @@
 	</dependencies>
 	<distributionManagement>
 		<repository>
-			<id>github-digisfera-it</id>
+			<id>github</id>
 			<name>GitHub DigiSfera.it Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/digisfera-it/repo</url>
+			<url>https://maven.pkg.github.com/digisfera-it/digisfera-llm-api</url>
 		</repository>
 	</distributionManagement>
 </project>
