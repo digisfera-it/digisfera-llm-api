@@ -13,4 +13,6 @@ public interface Connection {
 
 	Chat chat(String model, List<Message> history, Consumer<String> contentConsumer, Consumer<Message> messageConsumer) throws IOException;
 
+	Set<String> getModels();
+
 }
