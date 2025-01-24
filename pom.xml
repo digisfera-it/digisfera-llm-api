@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.digisfera</groupId>
 	<artifactId>digisfera-llm-api</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<name>DigiSfera.it LLM API</name>
 	<description>DigiSfera.it LLM API</description>
 	<developers>
