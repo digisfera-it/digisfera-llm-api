@@ -6,7 +6,7 @@ Usage: add the dependency
 	<dependency>
 	    <groupId>it.digisfera</groupId>
 	    <artifactId>digisfera-llm-api</artifactId>
-	    <version>1.0.3</version>
+	    <version>1.0.4</version>
 	</dependency>
 ```
 
